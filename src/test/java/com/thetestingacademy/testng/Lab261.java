@@ -1,10 +1,12 @@
 package com.thetestingacademy.testng;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
 public class Lab261 {
 
+    @Description("TC#1 - verify 261 GET Request 1")
     @Test
     public void getRequest() {
         RestAssured.
@@ -18,7 +20,7 @@ public class Lab261 {
 
     }
 
-
+    @Description("TC#2 - verify 261 GET Request 2")
     @Test
     public void getRequest2() {
         RestAssured.
