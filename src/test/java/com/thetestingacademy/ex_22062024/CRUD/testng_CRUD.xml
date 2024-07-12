@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restful booker CRUD">
+    <test verbose="2" preserve-order="true" name="CRUD All Test">
+        <classes>
+            <class name="com.thetestingacademy.ex_22062024.CRUD.GET.NonBDDStyle.Lab270"></class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_22062024.CRUD.POST.Lab272"></class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_22062024.CRUD.PUT.Lab273"></class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_22062024.CRUD.PATCH.Lab274"></class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_22062024.CRUD.DELETE.Lab275"></class>
+        </classes>
+
+    </test>
+</suite>
