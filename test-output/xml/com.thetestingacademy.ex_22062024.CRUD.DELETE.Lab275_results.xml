@@ -4,12 +4,12 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="2.841">
+           time="3.352">
     <properties></properties>
 
             <testcase
                 name="testDeleteRequestNonBDDStyle"
-                time="2.841"
+                time="3.352"
                 classname="com.thetestingacademy.ex_22062024.CRUD.DELETE.Lab275">
 
             <failure type="java.lang.AssertionError" message="1 expectation failed.

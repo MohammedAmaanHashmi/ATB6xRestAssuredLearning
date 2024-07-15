@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ATB6xRestAssuredLearning"
+<testsuite name="CRUD All Test"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="2.995">
+           time="1.339">
     <properties></properties>
 
 
 
             <testcase
                 name="testBDDStylePostPositive"
-                time="2.995"
+                time="1.339"
                 classname="com.thetestingacademy.ex_22062024.CRUD.POST.Lab271">
             </testcase>
 </testsuite>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ATB6xRestAssuredLearning"
-           tests="1"
+<testsuite name="CRUD All Test"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="2.870">
+           time="1.527">
     <properties></properties>
 
 
 
             <testcase
-                name="getRequestNonBDDStyle"
-                time="2.870"
+                name="getRequestNonBDDStyle1"
+                time="1.155"
+                classname="com.thetestingacademy.ex_22062024.CRUD.GET.NonBDDStyle.Lab270">
+            </testcase>
+            <testcase
+                name="getRequestNonBDDStyle2"
+                time="0.372"
                 classname="com.thetestingacademy.ex_22062024.CRUD.GET.NonBDDStyle.Lab270">
             </testcase>
 </testsuite>
