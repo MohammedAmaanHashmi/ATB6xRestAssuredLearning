@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/Amaan/IdeaProjects/ATB6xRestAssuredLearning"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.080">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testMethodNegativeOne"
+                time="0.073"
+                classname="com.thetestingacademy.ex_25602024.Lab278">
+            </testcase>
+            <testcase
+                name="testMethodZero"
+                time="0.002"
+                classname="com.thetestingacademy.ex_25602024.Lab278">
+            </testcase>
+            <testcase
+                name="testMethodTwo"
+                time="0.003"
+                classname="com.thetestingacademy.ex_25602024.Lab278">
+            </testcase>
+            <testcase
+                name="testMethodOne"
+                time="0.002"
+                classname="com.thetestingacademy.ex_25602024.Lab278">
+            </testcase>
+</testsuite>

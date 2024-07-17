@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/Amaan/IdeaProjects/ATB6xRestAssuredLearning"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.063">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testDemo1"
+                time="0.063"
+                classname="com.thetestingacademy.ex_25602024.Lab284">
+            </testcase>
+</testsuite>
