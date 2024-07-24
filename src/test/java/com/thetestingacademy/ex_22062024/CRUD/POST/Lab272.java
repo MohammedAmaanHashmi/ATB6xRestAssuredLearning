@@ -1,5 +1,6 @@
 package com.thetestingacademy.ex_22062024.CRUD.POST;
 
+import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -23,8 +24,12 @@ public class Lab272 {
         //HEADER - Content Type
         String Base_URL = "https://restful-booker.herokuapp.com";
         String Base_PATH = "/booking";
+
+        Faker faker = new Faker();
+        String firstName = faker.name().firstName();
+
         String payload = "{\n" +
-                "    \"firstname\" : \"Jim\",\n" +
+                "    \"firstname\" : \"" + firstName + "\",\n" +
                 "    \"lastname\" : \"Brown\",\n" +
                 "    \"totalprice\" : 111,\n" +
                 "    \"depositpaid\" : true,\n" +
